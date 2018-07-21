@@ -54,4 +54,5 @@ h2 {
 .linkLogos {
 	float: left;
 	width: 20%;
+	border: 4px solid #bbb;
 }
