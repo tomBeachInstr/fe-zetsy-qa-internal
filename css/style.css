@@ -32,6 +32,7 @@ header {
 	border-bottom: 2px solid #aaa;
 }
 #logo {
+	margin: 0;
 	font-size: 4em;
 	font-weight: lighter;
 	font: 'fonts/Baskerville.ttc', serif;
