@@ -29,18 +29,18 @@ div {
 
 /* Write all remaining styles here */
 header {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #bbb;
 }
 #logo {
 	margin: 20px 0 4px 0;
 	font-size: 4em;
 	font-weight: lighter;
 	font: 'fonts/Baskerville.ttc', serif;
-	color: #ccc;
+	color: #bbb;
 }
 #logo > span {
 	font-size: 0.7em;
 }
 h2 {
-	color: #aaa;
+	color: #999;
 }
