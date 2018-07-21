@@ -14,7 +14,7 @@ body {
 	font-size: 100%;
 	font-family: 'Times New Roman', serif;
 }
-div {
+* {
 	box-sizing: border-box;
 }
 .wrapper {
