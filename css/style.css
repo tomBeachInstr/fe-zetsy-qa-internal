@@ -29,14 +29,14 @@ div {
 
 /* Write all remaining styles here */
 header {
-	border-bottom: 1px solid #aaa;
+	border-bottom: 1px solid #ccc;
 }
 #logo {
 	margin: 20px 0 4px 0;
 	font-size: 4em;
 	font-weight: lighter;
 	font: 'fonts/Baskerville.ttc', serif;
-	color: #aaa;
+	color: #ccc;
 }
 #logo > span {
 	font-size: 0.7em;
