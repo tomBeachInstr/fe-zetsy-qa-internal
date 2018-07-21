@@ -64,3 +64,6 @@ h2 {
 	margin: 0 0.5%;
 	border: 4px solid #9baba6;
 }
+footer > p {
+	font-size: 0.1em;
+}
