@@ -4,17 +4,31 @@
 
 /*////////// Global Styles //////////*/
 
+body, html {
+    height: 100%;
+    min-height: 100%;
+}
 body {
 	background: #F3EBE9;
+	padding: 0;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+}
+div {
+	box-sizing: border-box;
 }
 
 .wrapper {
 	width: 960px;
+	height: 100%;
 	margin: 0 auto;
+	margin-top: -20px;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0 80px;
 }
 
 /* Write all remaining styles here */
+#logo {
+	font-size: 4em;
+	font-style: 
+}
