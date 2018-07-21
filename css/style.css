@@ -30,6 +30,7 @@ div {
 /* Write all remaining styles here */
 #logo {
 	font-size: 4em;
+	font-weight: lighter;
 	font: 'fonts/Baskerville.ttc', serif;
 }
 #logo > span {
