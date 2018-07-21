@@ -4,17 +4,71 @@
 
 /*////////// Global Styles //////////*/
 
+body, html {
+    height: 100%;
+    min-height: 100%;
+}
 body {
 	background: #F3EBE9;
+	padding: 0;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
-
+* {
+	box-sizing: border-box;
+}
 .wrapper {
 	width: 960px;
+	height: 150%;
 	margin: 0 auto;
+	margin-top: -20px;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0 60px;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
 }
 
-/* Write all remaining styles here */
+/* ======= ======= ======= header ======= ======= ======= */
+header {
+	border-bottom: 1px solid #bbb;
+}
+#logo {
+	margin: 20px 0 4px 0;
+	font-size: 4em;
+	font-weight: lighter;
+	font: 'fonts/Baskerville.ttc', serif;
+	color: #9baba6;
+}
+#logo > span {
+	font-size: 0.7em;
+}
+h2 {
+	color: #717787;
+}
+
+/* ======= ======= ======= sections ======= ======= ======= */
+#banner {
+	width: 100%;
+	margin-top: 10px;
+	border: 4px solid #9baba6;
+}
+#linkLogos {
+
+}
+.linkLogo {
+	float: left;
+	width: 24%;
+	margin: 0 0.5%;
+	border: 4px solid #9baba6;
+}
+.linkLogo:hover {
+	border: 4px solid #000000;
+}
+footer > p {
+	font-size: 1em;
+	text-align: right;
+	color: #9baba6;
+}
