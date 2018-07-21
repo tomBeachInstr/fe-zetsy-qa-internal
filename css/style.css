@@ -30,5 +30,5 @@ div {
 /* Write all remaining styles here */
 #logo {
 	font-size: 4em;
-	font-family: 'fonts/Baskerville.ttc', serif;
+	font: 'fonts/Baskerville.ttc', serif;
 }
