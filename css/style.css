@@ -32,3 +32,6 @@ div {
 	font-size: 4em;
 	font: 'fonts/Baskerville.ttc', serif;
 }
+#logo > span {
+	font-size: 2em;
+}
