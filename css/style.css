@@ -27,7 +27,7 @@ div {
 	padding: 0 60px;
 }
 
-/* Write all remaining styles here */
+/* ======= ======= ======= header ======= ======= ======= */
 header {
 	border-bottom: 1px solid #bbb;
 }
@@ -43,4 +43,9 @@ header {
 }
 h2 {
 	color: #999;
+}
+
+/* ======= ======= ======= sections ======= ======= ======= */
+#banner {
+	width: 80%;
 }
