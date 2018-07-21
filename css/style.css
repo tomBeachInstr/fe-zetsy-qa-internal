@@ -28,6 +28,9 @@ div {
 }
 
 /* Write all remaining styles here */
+header {
+	border-bottom: 2px solid #aaa;
+}
 #logo {
 	font-size: 4em;
 	font-weight: lighter;
